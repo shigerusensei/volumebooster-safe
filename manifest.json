@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "minimum_chrome_version": "116",
+  "name": "Volume Booster Safe",
+  "description": "Boost your browser volume past max — 100% tracker-free.",
+  "version": "1.0.4",
+  "permissions": [
+    "tabCapture",
+    "activeTab",
+    "offscreen",
+    "storage",
+    "windows",
+    "alarms",
+    "notifications"
+  ],
+  "background": {
+    "service_worker": "service-worker.js"
+  },
+  "icons": {
+    "128": "sound.png"
+  },
+  "action": {
+    "default_icon": {
+      "128": "sound.png"
+    },
+    "default_title": "Volume Booster Safe",
+    "default_popup": "popup.html"
+  }
+}
