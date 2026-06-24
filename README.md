@@ -22,7 +22,7 @@ All tracking scripts, remote configurations, overly broad permissions (`<all_url
 - **Auto-Update:** Checks GitHub Releases for updates automatically and notifies you.
 
 ## Installation
-1. Download the latest release `.zip` from GitHub and extract it.
+1. Download the latest release `.zip` or `.crx `from GitHub and extract it.
 2. Open Chrome and navigate to `chrome://extensions/`.
 3. Enable **Developer mode** in the top right corner.
 4. Click **Load unpacked** and select the extracted folder.
